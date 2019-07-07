@@ -1,0 +1,29 @@
+.movie {
+  height: 300rpx;
+  display: flex;
+  padding: 20rpx;
+  border-bottom: 1px solid #ccc;
+}
+.movie-img {
+  width: 200rpx;
+  height: 100%;
+  margin-right: 20rpx;
+}
+.movie-info {
+  flex: 1;
+}
+.movie-title {
+  color: #666;
+  font-size: 40rpx;
+  font-weight: bolder;
+}
+.movie-score {
+  color: #faaf00;
+}
+.movie-comment {
+  width: 120rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 28rpx;
+  background-color: red;
+}
